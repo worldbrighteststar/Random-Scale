@@ -11,8 +11,9 @@ New data augmentation(2021.04)
 → 최소(line 간격 / 4) ~ 최대(line 간격 / 2) ... (try1)
 
 # result
-![image](https://user-images.githubusercontent.com/59173164/113481629-824d9700-94d5-11eb-9d5e-ec3be17790e2.png)
-![image](https://user-images.githubusercontent.com/59173164/113481631-85e11e00-94d5-11eb-9098-d7365e317670.png)
+![image](https://user-images.githubusercontent.com/59173164/113481688-dd7f8980-94d5-11eb-932a-2ddf65c5cd50.png)![image](https://user-images.githubusercontent.com/59173164/113481690-e40e0100-94d5-11eb-87ef-a0b2a6258bbf.png)
+![image](https://user-images.githubusercontent.com/59173164/113481691-e40e0100-94d5-11eb-99d1-26f94a9c77f6.png)
+
 
 # 학습 결과
 1. resNet(20, 44, ...)

@@ -11,7 +11,8 @@ New data augmentation(2021.04)
 → 최소(line 간격 / 4) ~ 최대(line 간격 / 2) ... (try1)
 
 # result
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/59173164/113481700-0011a280-94d6-11eb-9f18-41248babb013.png)
+
 
 
 

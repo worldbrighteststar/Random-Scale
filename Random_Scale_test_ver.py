@@ -1,7 +1,7 @@
 import cv2
 import random
 
-ori_img = cv2.imread("data/car.jpg")
+ori_img = cv2.imread("data/cat.png")
 scale_img = ori_img.copy() # 원본 훼손 방지
 
 
@@ -42,7 +42,7 @@ WorH = 0 # scaling 방향(width or height)
 ######################################################################################
 
 scaledImg = randomScale(scale_img, distOfLines, WorH)
-
+"""
 # original img
 print(ori_img.shape)
 cv2.imshow("img", ori_img)
@@ -50,16 +50,16 @@ cv2.imshow("img", ori_img)
 print(scaledImg.shape)
 cv2.imshow("f", scaledImg)
 cv2.waitKey()
-
+"""
 ######################################################################################
 
 
 # getting testImgs depends on distoflines 
-"""
+
 for i in range(20, 180, 20):
     test = ori_img.copy()
     test = randomScale(test, i, 1)
-    cv2.imwrite(f"data/car_h{i}.jpg", test)
-"""
+    cv2.imwrite(f"data/cat_h{i}.jpg", test)
+
 
 

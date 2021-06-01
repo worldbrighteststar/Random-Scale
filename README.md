@@ -33,6 +33,7 @@ dist : original image's (width or height size) / 4
 
 2. cifar-10 image Test Err(%) 
 
+Baseline : RandomCrop, RandomHorizontalFlip
 
 ||Baseline|+RS|+cutout|+cutmix|
 |------|---|---|---|---|

@@ -1,5 +1,7 @@
 # Random-Scale
-New data augmentation(2021.04)
+New data augmentation : Random Scaling
+
+ 기존의 이미지 데이터 증강 기법들은 데이터에 포함된 객체 모양 자체를 변형시키지는 않는다. 이미지 전체를 뒤집거나, 이미지의 특정 구역을 잘라 내거나, 특정 픽셀에 노이즈를 발생시키는 등 객체의 원본 모양을 유지하면서 이미지에 변화를 주는 방법으로 데이터 증강 효과를 가져왔다. 따라서 본 연구는 객체를 구성하는 2차원 요소들을 적당히 변형시키는 것이 모델 학습에 어떤 영향을 미치는지 파악하는 것을 목표로 하였으며, 이미지에 ‘Partially’, ‘Randomly’ Scale을 적용하여 원본 객체의 모양을 다양하게 변형시킬 수 있는 새로운 데이터 증강 기법, Random Scaling을 고안한다. 제안된 방법은 ResNet-110 모델에서 CIFAR10 classification 기준 5.51%의 test error를 기록하였고, 이는 기존의 typical data augmentation을 적용한 방법보다 1.21% 정도 높은 성능이다.
 
 ![image](https://user-images.githubusercontent.com/59173164/113481576-474b6380-94d5-11eb-8a56-994d64705477.png)
 

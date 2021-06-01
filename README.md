@@ -18,6 +18,7 @@ scale 방향은 width or height.
 
 # setting
 prob : 0.5(best case for cifar image classification)
+
 dist : original image's (width or height size) / 4  
        case of cifar image dist = 32/4 = 8 
 

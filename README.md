@@ -20,7 +20,7 @@ scale 방향은 width or height.
 1. cifar-10 image Test Err(%) by Random Scaling prob (dist : 8)
 
 
-|------|100%|75%|50%|
+||100%|75%|50%|
 |------|---|---|---|
 |ResNet110|7.14|6.48|5.51|
 

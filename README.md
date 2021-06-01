@@ -41,7 +41,11 @@ scale 방향은 width or height.
 |ResNet44|31.06|28.73|28.82|27.6|26.45|
 
 4. cifar-10 graph
+
+
 ![image](https://user-images.githubusercontent.com/59173164/120281444-ea610380-c2f3-11eb-8fdc-6bed53998da8.png)
 
 5. cifar-100 graph
+
+
 ![image](https://user-images.githubusercontent.com/59173164/120281459-ee8d2100-c2f3-11eb-90b3-40edff587e19.png)

@@ -17,6 +17,25 @@ scale 방향은 width or height.
 
 
 # 학습 결과
+1. cifar-10 image Test Err(%) by Random Scaling prob (dist : 8)
 ||100%|75%|50%|
 |------|---|---|---|
 |ResNet110|7.14|6.48|5.51|
+
+2. cifar-10 image Test Err(%) 
+||Baseline|+RS|+cutout|+cutmix|
+|------|---|---|---|---|
+|ResNet20|8.20|7.62|7.39|7.26|
+|ResNet44|7.92|6.23|6.90|6.99|
+|ResNet110|6.72|5.51|5.58|5.60|
+
+3. cifar-100 image Test Err(%) 
+||Baseline|+RS|+cutout|+cutmix|+RS+cutmix|
+|------|---|---|---|---|---|
+|ResNet44|31.06|28.73|28.82|27.6|26.45|
+
+4. cifar-10 graph
+![image](https://user-images.githubusercontent.com/59173164/120281444-ea610380-c2f3-11eb-8fdc-6bed53998da8.png)
+
+5. cifar-100 graph
+![image](https://user-images.githubusercontent.com/59173164/120281459-ee8d2100-c2f3-11eb-90b3-40edff587e19.png)

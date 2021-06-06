@@ -9,8 +9,8 @@ class randomScale(object):
     
 
   def __call__(self, img):
-    #if random.randrange(0,4) == 0:
-    #  return img
+    if random.randrange(0,2) == 0:
+      return img
     self.d = random.randrange(0,2)
     img = numpy.array(img)
     img_dtype = img.dtype
